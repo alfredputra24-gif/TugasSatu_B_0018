@@ -29,11 +29,8 @@ input{
     border: none;
 }
 
-h3{
-    text-align: center;
-    color: white;;
-
-}
+#inputTask {flex: 2; }
+#inputDate {flex: 1; }
 
 #btnTambahTodo{
     background-color: green;
