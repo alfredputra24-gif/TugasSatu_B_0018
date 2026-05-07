@@ -24,7 +24,9 @@ h1, h3{
 }
 
 input{
-    flex: 1;
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
 }
 
 h3{
