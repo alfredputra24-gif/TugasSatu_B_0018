@@ -4,6 +4,8 @@ const btnTambah = document.getElementById("btnTambahTodo");
 const daftarTugas = document.getElementById("listTugas");
 
 btnTambah.addEventListener("click", function(){
+    const taskText = inputValue.value;
+    const taskDate = inputDate.value;
 
     if(inputValue.value === ""){
         alert("Input tidak boleh kosong");
