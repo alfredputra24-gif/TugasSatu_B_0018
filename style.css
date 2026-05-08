@@ -54,3 +54,4 @@ li {
 }
 
 .task-info { display: flex; flex-direction: column; }
+.status-badge { font-size: 0.8rem; font-weight: bold; }
