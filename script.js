@@ -20,6 +20,9 @@ btnTambah.addEventListener("click", function(){
     inputValue.focus();
 });
 
+function tambahTugasKeDOM(teks, tanggal, status) {
+    const li = document.createElement("li");
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
