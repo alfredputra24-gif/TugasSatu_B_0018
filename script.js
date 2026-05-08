@@ -12,6 +12,8 @@ btnTambah.addEventListener("click", function(){
         return;
     }
 
+    tambahTugasKeDOM(taskText, taskDate, "Progress");
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
