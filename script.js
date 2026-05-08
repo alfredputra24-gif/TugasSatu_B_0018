@@ -46,6 +46,18 @@ function hapusTugas(el) {
     }
 }
 
+// 2. Fitur Edit Data
+function editTugas(el) {
+    const li = el.parentElement.parentElement;
+    const taskTextSpan = li.querySelector(".task-text strong");
+    const currentText = taskTextSpan.innerText;
+    
+    const newText = prompt("Edit Tugas:", currentText);
+    if (newText !== null && newText.trim() !== "") {
+        taskTextSpan.innerText = newText;
+    }
+}
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
