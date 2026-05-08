@@ -33,7 +33,10 @@ input{
 #inputDate {flex: 1; }
 
 #btnTambahTodo{
-    background-color: green;
+    background-color: #22c55e;
     border: none;
     color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
 }
