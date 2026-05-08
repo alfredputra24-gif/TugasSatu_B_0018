@@ -39,6 +39,13 @@ function tambahTugasKeDOM(teks, tanggal, status) {
     daftarTugas.appendChild(li);
 }
 
+// 1. Fitur Hapus Data
+function hapusTugas(el) {
+    if (confirm("Yakin ingin menghapus tugas ini?")) {
+        el.parentElement.parentElement.remove();
+    }
+}
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
