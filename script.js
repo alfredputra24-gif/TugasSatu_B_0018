@@ -14,6 +14,12 @@ btnTambah.addEventListener("click", function(){
 
     tambahTugasKeDOM(taskText, taskDate, "Progress");
 
+    // Reset input
+    inputValue.value = "";
+    inputDate.value = "";
+    inputValue.focus();
+});
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
@@ -28,7 +34,7 @@ btnTambah.addEventListener("click", function(){
 
 
 
-});
+
 
 
 
