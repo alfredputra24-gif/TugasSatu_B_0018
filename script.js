@@ -58,6 +58,20 @@ function editTugas(el) {
     }
 }
 
+// 3. Fitur Ubah Status (Progress / Done)
+function ubahStatus(el) {
+    const li = el.parentElement.parentElement;
+    const statusBadge = li.querySelector(".status-badge");
+    
+    if (statusBadge.innerText === "Progress") {
+        statusBadge.innerText = "Done";
+        statusBadge.className = "status-badge done";
+    } else {
+        statusBadge.innerText = "Progress";
+        statusBadge.className = "status-badge progress";
+    }
+}
+
     const listbaru = document.createElement("li")
     const span = document.createElement("span")
     span.innerHTML = inputValue.value;
