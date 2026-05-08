@@ -7,8 +7,8 @@ btnTambah.addEventListener("click", function(){
     const taskText = inputValue.value;
     const taskDate = inputDate.value;
 
-    if(inputValue.value === ""){
-        alert("Input tidak boleh kosong");
+    if (taskText === "" || taskDate === "") {
+        alert("Tugas dan Tanggal tidak boleh kosong!");
         return;
     }
 
