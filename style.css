@@ -57,3 +57,11 @@ li {
 .status-badge { font-size: 0.8rem; font-weight: bold; }
 .progress { color: orange; }
 .done { color: green; text-decoration: line-through; }
+
+.actions button {
+    margin-left: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+    border: none;
+    border-radius: 3px;
+}
